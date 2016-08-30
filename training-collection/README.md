@@ -23,7 +23,23 @@ The following steps are needed to add the enterprise integration widgets to your
   "2048-widget-highscores": "./training-collection/2048-widget-highscores",
   "2048-widget-game": "./training-collection/2048-widget-game"
   ```
+  e.g.
+  ```
+  "dependencies":{
+    "2048-widget-register": "./training-collection/2048-widget-register",
+  "2048-widget-players": "./training-collection/2048-widget-players",
+  "2048-widget-login": "./training-collection/2048-widget-login",
+  "2048-widget-highscores": "./training-collection/2048-widget-highscores",
+  "2048-widget-game": "./training-collection/2048-widget-game"
+  }
+  ```
+- If you already have [bb-cli](https://my.backbase.com/resources/how-to-guides/bb-cli-the-one-cli-to-rule-them-all/) installed, just run :
 
+  ```
+  bb import-collection -a
+  ```
+  else use one of the following commands on respective OS:
+  
 - On Windows, run:
 
   ```
@@ -36,8 +52,4 @@ The following steps are needed to add the enterprise integration widgets to your
   ./bower install
   ```
 
-- If you already have [bb-cli](https://my.backbase.com/resources/how-to-guides/bb-cli-the-one-cli-to-rule-them-all/) installed, just run :
 
-  ```
-  bb import-collection -a
-  ```
